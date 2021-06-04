@@ -86,6 +86,42 @@
 
 button:focus {outline:0 !important;}
 
+@media (max-width: 767px) {      
+  body {
+    margin: 5 !important;
+  }     
+  .top {
+    margin
+  }       
+  .overlay {
+     display: none;
+  }
+  .overlay_bg {
+    display: none;
+  }
+  .t1 {
+    font-size: 24px;
+  }
+  .t3 {
+    font-size: 16px;
+  }
+  .team_header {
+    font-size: 30px !important;
+  }
+  .team_pic {
+    display:none;
+  }
+  .logos{
+    display: none !important;
+  }
+  .partnership_diagram{
+    display: none;
+  }
+  .partnership_desc{
+    display: none;
+  }
+}
+
 /*! tailwindcss v2.1.2 | MIT License | https://tailwindcss.com */
 
 /*! modern-normalize v1.1.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
